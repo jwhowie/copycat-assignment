@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin:0px;
+}
+
+header {
+  background-color: #06D6A0;
+  text-align: center;
+
+}
+.logo {
+  color: white;
+  margin: 0;
+}
+
+.products {
+  background-color: #F2F2F2;
+}
+
+.nav-item {
+  margin-bottom: 5px;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.call-to-action {
+  background-color: #FFD166;
+}
+
+.call-to-action, .products, .about {
+    padding: 30px 20px;
+}
+
+.team-fun, .team-values, .team-meow {
+    float: left;
+    width: 33.33333%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #EF476F;
+}
+
+.about {
+  background-color: #26547C;
+  color:white;
+
+}
+
+footer {
+    background-color: #06D6A0;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 550px){
+  header {
+      overflow: hidden;
+      height: 60px;
+      padding: 0 20px;
+  }
+
+  html {
+    font-size: 1.2em;
+  }
+
+  .logo {
+      float: left;
+      line-height: 60px;
+      font-size: 18px;
+  }
+
+  .navbar {
+    float: right;
+    padding: 0;
+  }
+
+  .nav-item {
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 60px;
+  }
+
+  .hero {
+    background-color: #26547C;
+    overflow: hidden;
+    color:white;
+
+  }
+
+  .hero-image {
+    float:left;
+    width: 60%;
+  }
+
+  .hero-content {
+    float: left;
+    width: 40%;
+    font-size: 25px;
+  }
+  .prodcut-wrapper {
+    overflow: hidden;
+  }
+  .product-item {
+    float:left;
+    width: 33%;
+    padding: 10px;
+  }
+
+  .product-item > img {
+    border: 3px solid black;
+  }
+}
